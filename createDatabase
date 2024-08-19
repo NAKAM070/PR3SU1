@@ -1,0 +1,12 @@
+CREATE DATABASE projektmanagement;
+
+USE projektmanagement;
+
+CREATE TABLE Projekt (
+    id VARCHAR(30) PRIMARY KEY,
+    name VARCHAR(255),
+    startdatum DATE,
+    enddatum DATE,
+    beschreibung TEXT,
+    verantwortlich VARCHAR(255)
+);
