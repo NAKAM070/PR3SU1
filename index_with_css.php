@@ -139,31 +139,31 @@ $result = $conn->query("SELECT * FROM Projekt");
 
                 <div class="mb-3 form-group-icon">
                     <label for="name" class="form-label">Name des Projekts:</label>
-                    <i class="fas fa-project-diagram"></i>
+                    
                     <input type="text" id="name" name="name" class="form-control" required value="<?php echo $edit_project['name'] ?? ''; ?>">
                 </div>
 
                 <div class="mb-3 form-group-icon">
                     <label for="startdatum" class="form-label">Startdatum:</label>
-                    <i class="fas fa-calendar-alt"></i>
+                    
                     <input type="date" id="startdatum" name="startdatum" class="form-control" required value="<?php echo $edit_project['startdatum'] ?? ''; ?>">
                 </div>
 
                 <div class="mb-3 form-group-icon">
                     <label for="enddatum" class="form-label">Enddatum:</label>
-                    <i class="fas fa-calendar-check"></i>
+                    
                     <input type="date" id="enddatum" name="enddatum" class="form-control" required value="<?php echo $edit_project['enddatum'] ?? ''; ?>">
                 </div>
 
                 <div class="mb-3 form-group-icon">
                     <label for="beschreibung" class="form-label">Beschreibung:</label>
-                    <i class="fas fa-info-circle"></i>
+                    
                     <textarea id="beschreibung" name="beschreibung" class="form-control" required><?php echo $edit_project['beschreibung'] ?? ''; ?></textarea>
                 </div>
 
                 <div class="mb-3 form-group-icon">
                     <label for="verantwortlich" class="form-label">Verantwortliche Person:</label>
-                    <i class="fas fa-user"></i>
+                    
                     <input type="text" id="verantwortlich" name="verantwortlich" class="form-control" required value="<?php echo $edit_project['verantwortlich'] ?? ''; ?>">
                 </div>
 
